@@ -12,7 +12,8 @@ function App() {
         <Main/>
       </main>
       <footer className='App-footer'>
-        <p>Web site created using create-react-app, open-source, hosted on Netlify</p>
+        <p>Web site created using React, open-source, hosted on Netlify</p>
+        <a href='https://www.linkedin.com/in/evyeniamm/'>LN</a>
       </footer>
     </div>
   );
