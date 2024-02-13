@@ -16,7 +16,6 @@ export default function Main(){
                         <img src={foto} alt="personal" className="img-fluid"/>
                     </div>
                 </div>
-                <hr/>
                     <div className="main-info">
                         <div className="row">
                             <div className="col-6">
