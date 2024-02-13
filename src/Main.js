@@ -9,16 +9,24 @@ export default function Main(){
         <div className="main">
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
-                        <img src={foto} alt="personal" className="img-fluid"/>
-                    </div>
-                    <div className="col-6">
+                    <div className="col-4">
                         <h1>Evyenia Mejia Mabragañis</h1>
                     </div>  
+                    <div className="col-8">
+                        <img src={foto} alt="personal" className="img-fluid"/>
+                    </div>
                 </div>
                 <hr/>
-                    <h2>Data Analyst</h2>
-                    <h2>Mechatronics Engineer</h2>
+                    <div className="main-info">
+                        <div className="row">
+                            <div className="col-6">
+                                <h2>Data Analyst</h2>
+                            </div>
+                            <div className="col-6">
+                                <h2>Mechatronics Engineer</h2>
+                            </div>
+                        </div>
+                    </div>
                     <hr/>
                     <Work/>
                     <Skills/>

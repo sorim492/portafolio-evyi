@@ -1,11 +1,14 @@
 :root{
-  --primary-color: #7745FF;
+  --primary-color: #512DA8;
+  --link-color: #7C4DFF;
+  --hover-color: #757575;
+  --divider-color: #F8F9FA;
 }
 
 Footer{
   position: absolute;
   bottom: 0;
-  background-color: #f8f8f8;
+  background-color: var(--divider-color);
   width: 100%;
   min-height: 30px;
 }
@@ -26,20 +29,53 @@ footer .container{
 }
 
 .App-link {
-  color: #6f13f0; 
+  color: var(--link-color); 
+  text-decoration: none;
+}
+
+.App-link:hover{
+  color: var(--hover-color);
 }
 
 .header{
-  background-color: #f8f8f8;
-  color: var(--primary-color);
+  background-color: var(--divider-color);
   height: 100px;
 }
 
 .main{
+  margin-top: 50px;
   text-align: center;
 }
 
+.main h1{
+  padding: 45px;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+.main-info{
+  height: 100px;
+  padding: 30px;
+  font-weight: 700;
+  font-size: 40px;
+  background-image: url(./fondo.jpeg);
+  color: #FFF;
+}
+
 .main img{
+  display: block;
+  margin: 0 auto;
   width: 30%;
   border-radius: 15px;
+}
+
+.work{
+  height: 50px;
+  background: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
+}
+
+.skills{
+  height: 50px;
+  background: linear-gradient(110.6deg, rgb(184, 142, 252) 2.2%, rgb(104, 119, 244) 100.2%);
+  color: #F8F9FA;
 }
