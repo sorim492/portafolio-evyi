@@ -6,8 +6,6 @@
 }
 
 Footer{
-  position: absolute;
-  bottom: 0;
   background-color: var(--divider-color);
   width: 100%;
   min-height: 30px;
@@ -17,10 +15,6 @@ footer .container{
   margin-left: 5px;
   text-align: center;
   padding: 10px;
-}
-
-.App {
-  margin-left: 5px;
 }
 
 .App-logo{
@@ -37,29 +31,34 @@ footer .container{
   color: var(--hover-color);
 }
 
-.header{
-  background-color: var(--divider-color);
-  height: 100px;
-}
-
 .main{
-  margin-top: 50px;
+  background-image: url(./fondo.jpeg);
+  background-repeat: no-repeat;
+  margin-top: 20px;
   text-align: center;
 }
 
 .main h1{
-  padding: 45px;
+  padding: 50px;
   font-weight: 800;
+  color: #95e8d7;
+}
+
+.main h1:hover{
   color: var(--primary-color);
+  background-color: rgba(192, 192, 245, 0.6);
 }
 
 .main-info{
-  height: 100px;
+  height: 130px;
   padding: 30px;
   font-weight: 700;
   font-size: 40px;
-  background-image: url(./fondo.jpeg);
   color: #FFF;
+}
+
+.main-info h2:hover{
+  background-color: rgba(192, 192, 245, 0.6);
 }
 
 .main img{
@@ -71,7 +70,7 @@ footer .container{
 }
 
 .main img:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 .work{
