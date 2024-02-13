@@ -3,16 +3,18 @@ import Work from "./Work";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import foto from "./foto.jpeg";
+import Projects from "./Projects";
+import Certificates from "./Certificates";
 
 export default function Main(){
     return(
         <div className="main">
             <div className="container">
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-6">
                         <h1>Evyenia Mejia Mabragañis</h1>
                     </div>  
-                    <div className="col-8">
+                    <div className="col-6">
                         <img src={foto} alt="personal" className="img-fluid"/>
                     </div>
                 </div>
@@ -40,6 +42,8 @@ export default function Main(){
                     </p>
                     <Work/>
                     <Skills/>
+                    <Projects/>
+                    <Certificates/>
                     <div>
                     <Contact/>
                     </div>

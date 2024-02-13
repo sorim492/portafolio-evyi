@@ -2,11 +2,13 @@
   --primary-color: #512DA8;
   --link-color: #7C4DFF;
   --hover-color: #757575;
+  --divider-color-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   --divider-color: #F8F9FA;
 }
 
 Footer{
-  background-color: var(--divider-color);
+  padding-top: 5px;
+  background: var(--divider-color-gradient);
   width: 100%;
   min-height: 30px;
 }
@@ -40,8 +42,9 @@ footer .container{
 
 .main h1{
   padding: 50px;
+  font-size: 45px;
   font-weight: 800;
-  color: #95e8d7;
+  color: #caeee6;
 }
 
 .main h1:hover{
@@ -64,7 +67,7 @@ footer .container{
 .main img{
   display: block;
   margin: 0 auto;
-  width: 30%;
+  width: 50%;
   border-radius: 15px;
   transition: all 150ms ease-in-out;
 }

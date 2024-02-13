@@ -15,7 +15,9 @@ function App() {
         <div className='container'>
           <div className='row'>
             <div className='col-7'>
-              <p>Web site created using React, open-source on 
+              <p>Web site created using React
+                <br/> 
+                open-source on 
               <a href='https://github.com/sorim492/portafolio-evyi.git' target='_blank' rel="noreferrer" className='App-link'> github <i class="fa-brands fa-github"></i></a>, hosted on Netlify</p>
             </div>
             <div className='col-5'>
