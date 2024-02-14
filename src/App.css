@@ -67,7 +67,7 @@ footer .container{
 .main img{
   display: block;
   margin: 0 auto;
-  width: 50%;
+  max-width: 60%;
   border-radius: 15px;
   transition: all 150ms ease-in-out;
 }
