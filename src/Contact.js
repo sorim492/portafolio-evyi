@@ -6,10 +6,10 @@ export default function Contact(){
         <div className="contact" id="contact">
             <br/>
             <form>
-                <input type="text"/>
-                <input type="submit" value="contact"/>
+                <input type="text" className="contact-text"/>
+                <input type="submit" value="contact" className="contact-btn"/>
             </form>
-            <a href="linkedin.com/in/evyeniamm/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="linkedin.com/in/evyeniamm/" target="_blank" rel="noreferrer" className='App-link'><i class="fa-brands fa-linkedin"></i></a>
         </div>
     )
 }
