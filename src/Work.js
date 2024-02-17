@@ -3,7 +3,7 @@ import React from "react";
 export default function Work(){
     return(
         <div className="work" id="work">
-            <h2>Work Experience</h2>
+            <h2>Work</h2>
             <div className="row">
                 <div className='col-6'>
                     <h3>Project Engineer</h3>
@@ -17,8 +17,7 @@ export default function Work(){
                     <h3>Company: Conservación e Instalaciones Pineda</h3>
                 </div>
             </div>
-            <h4>Main activities: </h4>
-            <ul>
+            <ul className="work-act">
                 <li>
                     Elaboration of quotes
                 </li>
@@ -45,8 +44,7 @@ export default function Work(){
                     <h3>Company: ASEI ingeniería S.A. de C.V</h3>
                 </div>
             </div>
-            <h4>Main activities: </h4>
-            <ul>
+            <ul className="work-act">
                 <li>
                     Technical support
                 </li>
@@ -68,8 +66,7 @@ export default function Work(){
                     <h3>Company: Omicron Bajío S.A. DE C.V.</h3>
                 </div>
             </div>
-            <h4>Main activities: </h4>
-            <ul>
+            <ul className="work-act">
                 <li>
                     Technical support
                 </li>

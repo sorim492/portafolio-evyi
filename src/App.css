@@ -1,9 +1,13 @@
 :root{
   --primary-color: #512DA8;
+  --secondary-color: #673AB7;
   --link-color: #7C4DFF;
   --hover-color: #757575;
   --divider-color-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   --divider-color: #F8F9FA;
+  --subtitle-font: "Kode Mono", monospace;
+  --text-font: "Young Serif", serif;
+  --secondary-font: "Poppins", sans-serif;
 }
 
 body{
@@ -70,6 +74,14 @@ footer .card-body a{
   background-color: rgba(192, 192, 245, 0.6);
 }
 
+.main h2{
+  font-family: var(--text-font);
+}
+
+.main p{
+  font-family: var(--secondary-font);
+}
+
 .main-info{
   padding: 30px;
   font-weight: 700;
@@ -95,27 +107,86 @@ footer .card-body a{
 
 .work{
   background: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
+  padding: 15px;
+}
+
+.work h2{
+  font-family: var(--text-font);
+  font-size: 45px;
+  color: #512DA8;
+}
+
+.work h3{
+  font-family: var(--subtitle-font);
+  color: var(--secondary-color);
+  text-align: left;
+  margin-left: 15px;
+}
+
+.work-act{
+  list-style-type: none;
+  color: var(--secondary-color);
+  text-align: right;
+  margin-right: 20px;
 }
 
 .projects{
   height: 250px;
   background: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
+  padding: 15px;
+}
+
+.projects h2{
+  font-family: var(--text-font);
+  font-size: 45px;
+  color: #512DA8;
 }
 
 .skills{
-  height: 290px;
   background: linear-gradient(110.6deg, rgb(184, 142, 252) 2.2%, rgb(104, 119, 244) 100.2%);
   color: #F8F9FA;
+  padding: 15px;
+}
+
+.skills h2{
+  font-family: var(--text-font);
+  font-size: 45px;
+  color: #512DA8;
+}
+
+.skills p{
+  font-family: var(--subtitle-font);
+  font-size: 25px;
 }
 
 .certificates{
   background: linear-gradient(-225deg, rgb(82, 113, 196) 0%, rgb(177, 159, 255) 48%, rgb(236, 161, 254) 100%);
-  height: 250px;
+  padding: 15px;
   color: #F8F9FA;
 }
 
+.certificates h2{
+  font-family: var(--text-font);
+  font-size: 45px;
+  padding: 10px;
+  color: #512DA8;
+}
+
 .contact{
+  padding-bottom: 15px;
   background: linear-gradient(135deg, rgb(206, 159, 252) 10%, rgb(115, 103, 240) 100%);
+}
+
+.contact h2{
+  font-family: var(--text-font);
+  font-size: 45px;
+  color: #512DA8;
+}
+
+.contact h3{
+  font-family: var(--subtitle-font);
+  color: var(--secondary-color);
+  margin-left: 15px;
 }
 
 .contact-name {
@@ -140,3 +211,4 @@ footer .card-body a{
   background-color: var(--primary-color);
   color: #F8F9FA;
 }
+
