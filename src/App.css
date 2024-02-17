@@ -6,6 +6,10 @@
   --divider-color: #F8F9FA;
 }
 
+body{
+  background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+}
+
 Footer{
   padding-top: 5px;
   background: var(--divider-color-gradient);
@@ -34,10 +38,16 @@ footer .container{
 }
 
 .main{
+  
+  color: #f5f7fa;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main .name{
   background-image: url(./fondo.jpeg);
   background-repeat: no-repeat;
-  margin-top: 20px;
-  text-align: center;
+  background-size: cover;
 }
 
 .main h1{
@@ -53,7 +63,6 @@ footer .container{
 }
 
 .main-info{
-  height: 130px;
   padding: 30px;
   font-weight: 700;
   font-size: 40px;
@@ -77,7 +86,6 @@ footer .container{
 }
 
 .work{
-  height: 250px;
   background: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
 }
 

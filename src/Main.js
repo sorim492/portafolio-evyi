@@ -10,7 +10,7 @@ export default function Main(){
     return(
         <div className="main">
             <div className="container">
-                <div className="row">
+                <div className="row name">
                     <div className="col-6">
                         <h1>Evyenia Mejia Mabragañis</h1>
                     </div>  
@@ -18,6 +18,7 @@ export default function Main(){
                         <img src={foto} alt="personal" className="img-fluid"/>
                     </div>
                 </div>
+                    <hr/>
                     <div className="main-info">
                         <div className="row">
                             <div className="col-6">
@@ -28,7 +29,6 @@ export default function Main(){
                             </div>
                         </div>
                     </div>
-                    <hr/>
                     <p> Engineer with experience in project management in industrial maintenance. I
                         have worked on projects aimed at optimizing industrial processes that have
                         taken me to enter the world of data analysis.
@@ -40,6 +40,16 @@ export default function Main(){
                         robust foundation in engineering project management, gain problem-solving
                         skills, an analytical mindset, and the ability to make informed decisions.
                     </p>
+                    <div className="main-info">
+                        <div className="row">
+                            <div className="col-6">
+                                <h2>Power bi</h2>
+                            </div>
+                            <div className="col-6">
+                                <h2>Python</h2>
+                            </div>
+                        </div>
+                    </div>
                     <Work/>
                     <Skills/>
                     <Projects/>

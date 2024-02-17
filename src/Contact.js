@@ -16,7 +16,14 @@ export default function Contact(){
             <form>
                 <input type="submit" value="contact" className="contact-btn" onClick={contactUs}/>
             </form>
-            <a href="linkedin.com/in/evyeniamm/" target="_blank" rel="noreferrer" className='App-link'><i class="fa-brands fa-linkedin"></i></a>
+            <div className="row">
+               <div className='col-6'>
+                  <a href='mailto:evyeniamm@hotmail.com' target='_blank' rel="noreferrer" className='App-link'><i class="fa-regular fa-envelope"></i></a>
+               </div>
+               <div className='col-6'>
+                  <a href="linkedin.com/in/evyeniamm/" target="_blank" rel="noreferrer" className='App-link'><i class="fa-brands fa-linkedin"></i></a>
+               </div>
+            </div>
         </div>
     )
-}
+}     
