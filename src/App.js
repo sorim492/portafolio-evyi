@@ -49,14 +49,19 @@ function App() {
                 open-source on 
               <a href='https://github.com/sorim492/portafolio-evyi.git' target='_blank' rel="noreferrer" className='App-link'> github <i class="fa-brands fa-github"></i></a>, hosted on Netlify</p>
             </div>
-            <div className='col-2'>
-              <a href='https://www.linkedin.com/in/evyeniamm/' target='_blank' rel="noreferrer" className='App-link'><i class="fa-brands fa-linkedin"></i></a>
+            <div className='col-4'>
+            <div class="card text-bg-dark mb-3">
+            <div class="card-header">Contact</div>
+              <div class="card-body">
+                <a href='https://www.linkedin.com/in/evyeniamm/' target='_blank' rel="noreferrer" className='App-link'><i class="fa-brands fa-linkedin"></i></a>
+                <a href='mailto:evyeniamm@hotmail.com' target='_blank' rel="noreferrer" className='App-link'><i class="fa-regular fa-envelope"></i></a>
+              </div>
             </div>
-            <div className='col-2'>
-              <a href='mailto:evyeniamm@hotmail.com' target='_blank' rel="noreferrer" className='App-link'><i class="fa-regular fa-envelope"></i></a>
-            </div>
-          </div>
         </div>
+            </div>
+           
+          </div>
+          
       </footer>
     </div>
   );

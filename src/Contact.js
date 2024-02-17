@@ -13,8 +13,28 @@ export default function Contact(){
     return(
         <div className="contact" id="contact">
             <br/>
+            <h2>Send me a message!</h2>
+            <h3>Got a question or proposal, or just want
+               to say hello? Go ahead.</h3>
             <form>
-                <input type="submit" value="contact" className="contact-btn" onClick={contactUs}/>
+               <div className="row">
+                  <div className="col-6">
+                     <h4>Your name</h4>
+                     <input type="text" value="Enter your name" className="contact-name"/>
+                  </div>
+                  <div className="col-6">
+                     <h4>Your email</h4>
+                     <input type="text" value="Enter your email" className="contact-email"/>
+                  </div>
+               </div>
+               <div className="row">
+                  <div className="col-12">
+                  <h4>Your Message</h4>
+                     <input type="text" value="Hi, we need you, we're Company X" className="contact-message"/>
+                  </div>
+               </div>
+               <br/>
+               <input type="submit" value="Send" className="contact-btn" onClick={contactUs}/>
             </form>
             <div className="row">
                <div className='col-6'>
