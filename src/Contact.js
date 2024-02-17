@@ -20,17 +20,17 @@ export default function Contact(){
                <div className="row">
                   <div className="col-6">
                      <h4>Your name</h4>
-                     <input type="text" placeholder="Enter your name" className="contact-name"/>
+                     <input type="text" placeholder="Enter your name" className="contact-name" id="name"/>
                   </div>
                   <div className="col-6">
                      <h4>Your email</h4>
-                     <input type="text" placeholder="Enter your email" className="contact-email"/>
+                     <input type="text" placeholder="Enter your email" className="contact-email" id="email"/>
                   </div>
                </div>
                <div className="row">
                   <div className="col-12">
                   <h4>Your Message</h4>
-                     <input type="text" placeholder="Hi, we need you, we're Company X" className="contact-message"/>
+                     <input type="text" placeholder="Hi, we need you, we're Company X" className="contact-message" id="text"/>
                   </div>
                </div>
                <br/>
