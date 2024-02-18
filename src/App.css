@@ -175,6 +175,16 @@ footer .card-body a{
   color: #512DA8;
 }
 
+.certificates a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+.cer-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .contact{
   padding-bottom: 15px;
   background: linear-gradient(135deg, rgb(206, 159, 252) 10%, rgb(115, 103, 240) 100%);
@@ -218,8 +228,9 @@ footer .card-body a{
 }
 
 .contact-btn{
-  border-radius: 4px;
-  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 15px;
   background-color: var(--primary-color);
   color: #F8F9FA;
 }
