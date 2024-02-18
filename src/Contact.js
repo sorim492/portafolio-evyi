@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import Database from "./Database";
 
 export default function Contact(){
   
@@ -65,6 +66,7 @@ export default function Contact(){
                   <a href="linkedin.com/in/evyeniamm/" target="_blank" rel="noreferrer" className='App-link'><i class="fa-brands fa-linkedin"></i></a>
                </div>
             </div>
+            <Database name={userName}/>
         </div>
     )
 }     
