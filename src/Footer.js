@@ -34,9 +34,6 @@ export default function Footer(){
                                     <li class="nav-item">
                                         <a class="nav-link" href="#cer">Certificates</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#contact">Contact</a>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -44,7 +41,7 @@ export default function Footer(){
                     </div>
             <div className='col-3'>
               <div class="card text-bg-dark mb-3">
-              <div class="card-header">Contact</div>
+              <div class="card-header"><a class="nav-link" href="#contact">Contact</a></div>
                 <div class="card-body">
                   <a href='https://www.linkedin.com/in/evyeniamm/' target='_blank' rel="noreferrer" className='App-link'><i class="fa-brands fa-linkedin"></i></a>
                   <a href='mailto:evyeniamm@hotmail.com' target='_blank' rel="noreferrer" className='App-link'><i class="fa-regular fa-envelope"></i></a>
