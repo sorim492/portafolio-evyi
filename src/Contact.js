@@ -13,9 +13,13 @@ export default function Contact(){
     return(
         <div className="contact" id="contact">
             <br/>
-            <h2>Send me a message!</h2>
-            <h3>Got a question or proposal, or just want
-               to say hello? Go ahead.</h3>
+            <h2>
+               Send me a message!
+            </h2>
+            <h3>
+               Got a question or proposal, or just want
+               to say hello? Go ahead.
+            </h3>
             <form>
                <div className="row">
                   <div className="col-6">
@@ -24,7 +28,7 @@ export default function Contact(){
                   </div>
                   <div className="col-6">
                      <h4>Your email</h4>
-                     <input type="text" placeholder="Enter your email" className="contact-email" id="email"/>
+                     <input type="email" placeholder="Enter your email" className="contact-email" id="email"/>
                   </div>
                </div>
                <div className="row">

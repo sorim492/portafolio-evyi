@@ -132,7 +132,7 @@ footer .card-body a{
 
 .projects{
   height: 250px;
-  background: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
+  background: linear-gradient(-225deg, rgb(82, 113, 196) 0%, rgb(177, 159, 255) 48%, rgb(236, 161, 254) 100%);
   padding: 15px;
 }
 
@@ -143,8 +143,8 @@ footer .card-body a{
 }
 
 .skills{
-  background: linear-gradient(110.6deg, rgb(184, 142, 252) 2.2%, rgb(104, 119, 244) 100.2%);
   color: #F8F9FA;
+  background: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
   padding: 15px;
 }
 
@@ -160,7 +160,7 @@ footer .card-body a{
 }
 
 .certificates{
-  background: linear-gradient(-225deg, rgb(82, 113, 196) 0%, rgb(177, 159, 255) 48%, rgb(236, 161, 254) 100%);
+  background: linear-gradient(110.6deg, rgb(184, 142, 252) 2.2%, rgb(104, 119, 244) 100.2%);
   padding: 15px;
   color: #F8F9FA;
 }
@@ -187,24 +187,29 @@ footer .card-body a{
   font-family: var(--subtitle-font);
   color: var(--secondary-color);
   margin-left: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .contact h4{
-  padding: 10px;
+  padding: 8px;
 }
 
 .contact-name {
   border-radius: 10px;
+  border: 2px solid var(--secondary-color);
   padding: 5px;
 }
 
 .contact-email{
   border-radius: 10px;
+  border: 2px solid var(--secondary-color);
   padding: 5px;
 }
 
 .contact-message{
   border-radius: 10px;
+  border: 2px solid var(--secondary-color);
   padding: 30px;
   width: 80%;
 }

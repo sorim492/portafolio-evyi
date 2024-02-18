@@ -54,7 +54,6 @@ function App() {
             <div className='col-3'>
               <div class="card text-bg-dark mb-3">
               <div class="card-header">Contact</div>
-              <hr/>
                 <div class="card-body">
                   <a href='https://www.linkedin.com/in/evyeniamm/' target='_blank' rel="noreferrer" className='App-link'><i class="fa-brands fa-linkedin"></i></a>
                   <a href='mailto:evyeniamm@hotmail.com' target='_blank' rel="noreferrer" className='App-link'><i class="fa-regular fa-envelope"></i></a>
