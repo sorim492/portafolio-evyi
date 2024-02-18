@@ -19,7 +19,7 @@ export default function Contact(){
    }
 
     function contactUs(event){
-        event.preventDefault()
+        /*event.preventDefault()*/
         console.log(userName)
         console.log(userEmail) 
         console.log(message)
