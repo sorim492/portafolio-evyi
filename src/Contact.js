@@ -37,7 +37,7 @@ export default function Contact(){
                Got a question or proposal, or just want
                to say hello? Go ahead.
             </h3>
-            <form onSubmit={contactUs}>
+            <form onSubmit={contactUs} action="">
                <div className="row">
                   <div className="col-6">
                      <h4>Your name</h4>
