@@ -111,6 +111,11 @@ footer .card-body a{
 .work{
   background: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
   padding: 15px;
+  transition: all 150ms ease-in-out;
+}
+
+.work:hover{
+  transform: scale(1.05);
 }
 
 .work h2{
@@ -137,6 +142,11 @@ footer .card-body a{
   height: 250px;
   background: linear-gradient(-225deg, rgb(82, 113, 196) 0%, rgb(177, 159, 255) 48%, rgb(236, 161, 254) 100%);
   padding: 15px;
+  transition: all 150ms ease-in-out;
+}
+
+.projects:hover{
+  transform: scale(1.1);
 }
 
 .projects h2{
@@ -149,6 +159,11 @@ footer .card-body a{
   color: #F8F9FA;
   background: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
   padding: 15px;
+  transition: all 150ms ease-in-out;
+}
+
+.skills:hover{
+  transform: scale(1.1);
 }
 
 .skills h2{
@@ -166,6 +181,11 @@ footer .card-body a{
   background: linear-gradient(110.6deg, rgb(184, 142, 252) 2.2%, rgb(104, 119, 244) 100.2%);
   padding: 15px;
   color: #F8F9FA;
+  transition: all 150ms ease-in-out;
+}
+
+.certificates:hover{
+  transform: scale(1.1);
 }
 
 .certificates h2{
@@ -188,6 +208,11 @@ footer .card-body a{
 .contact{
   padding-bottom: 15px;
   background: linear-gradient(135deg, rgb(206, 159, 252) 10%, rgb(115, 103, 240) 100%);
+  transition: all 150ms ease-in-out;
+}
+
+.contact:hover{
+  transform: scale(1.05);
 }
 
 .contact h2{
