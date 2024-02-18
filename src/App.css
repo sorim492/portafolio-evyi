@@ -22,7 +22,7 @@ Footer{
 }
 
 footer .container{
-  margin-left: 5px;
+  margin-left: 40px;
   text-align: center;
   padding: 10px;
 }
@@ -47,6 +47,10 @@ footer .card-body a{
 
 .App-link:hover{
   color: var(--hover-color);
+}
+
+.container{
+  max-width: 95%;
 }
 
 .main{
