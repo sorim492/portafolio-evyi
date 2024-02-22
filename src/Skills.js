@@ -8,14 +8,14 @@ export default function Skills(){
                 <p>Dataset Management</p>
                 <p>Statistics knowledge</p>
                 <p>Database design</p>
-                <p>Data Modeling,
-                    transformation, 
-                    visualization</p>
+                <p>Data Modeling</p>
+                <p><small>transformation</small></p>
+                <p><small>visualization</small></p>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-lg-6">
                         <p>Python Language</p>
                     </div>
-                    <div className="col-6">
+                    <div className="col-lg-6">
                         <p>English: B2</p>
                     </div>
                 </div>

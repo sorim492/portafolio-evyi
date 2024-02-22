@@ -11,20 +11,20 @@ export default function Main(){
         <div className="main">
             <div className="container">
                 <div className="row name">
-                    <div className="col-6">
+                    <div className="col-lg-6 col-sm-12">
                         <h1>Evyenia Mejia Mabragañis</h1>
                     </div>  
-                    <div className="col-6">
+                    <div className="col-lg-6 col-sm-12">
                         <img src={foto} alt="personal" className="img-fluid"/>
                     </div>
                 </div>
                     <hr/>
                     <div className="main-info">
                         <div className="row">
-                            <div className="col-6">
+                            <div className="col-lg-6 col-sm-12">
                                 <h2>Data Analyst</h2>
                             </div>
-                            <div className="col-6">
+                            <div className="col-lg-6 col-sm-12">
                                 <h2>Mechatronics Engineer</h2>
                             </div>
                         </div>
@@ -42,10 +42,10 @@ export default function Main(){
                     </p>
                     <div className="main-info">
                         <div className="row">
-                            <div className="col-6">
+                            <div className="col-lg-6 col-sm-12">
                                 <h2>Power bi</h2>
                             </div>
-                            <div className="col-6">
+                            <div className="col-lg-6 col-sm-12">
                                 <h2>Python</h2>
                             </div>
                         </div>
