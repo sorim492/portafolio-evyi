@@ -162,7 +162,7 @@ footer .card-body a{
 
 .projects{
   background: linear-gradient(-225deg, rgb(82, 113, 196) 0%, rgb(177, 159, 255) 48%, rgb(236, 161, 254) 100%);
-  padding: 15px;
+  padding: 65px;
   transition: all 150ms ease-in-out;
 }
 
@@ -176,6 +176,11 @@ footer .card-body a{
   color: #512DA8;
 }
 
+.project-img{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .projects img{
   display: block;
   margin: 10px auto;
@@ -183,7 +188,8 @@ footer .card-body a{
 }
 
 .projects img:hover{
-  transform: scale(1);
+  margin-top: 45px;
+  transform: scale(1.8);
 }
 
 
@@ -308,7 +314,7 @@ footer .card-body a{
   }
 
   .projects{
-    padding: 25px;
+    padding: 45px;
   }
 
   .projects:hover{
@@ -316,8 +322,16 @@ footer .card-body a{
   }
 
   .projects img{
-    margin: 35px auto;
-    transform: scale(1.5);
+    margin: 45px auto;
+  }
+
+  .projects img:active{
+    transform: scale(1.9);
+  }
+
+  .project-img{
+    display: block;
+    margin: 5px auto;
   }
 
   .certificates:hover{
@@ -406,7 +420,7 @@ footer .card-body a{
   }
 
   .projects img{
-    margin: 65px auto;
+    margin: 95px auto;
     transform: scale(1.5);
   }
 
