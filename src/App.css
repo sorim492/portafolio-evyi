@@ -279,6 +279,10 @@ footer .card-body a{
     line-height: 1.5;
   }
 
+  .work:hover{
+    transform: scale(1);
+  }
+
   .work h2{
     font-size: 50px;
   }
@@ -289,6 +293,10 @@ footer .card-body a{
 
   .work-act{
     font-size: 20px;
+  }
+
+  .skills:hover{
+    transform: scale(1);
   }
 
   .skills h2{
@@ -303,9 +311,21 @@ footer .card-body a{
     padding: 25px;
   }
 
+  .projects:hover{
+    transform: scale(1);
+  }
+
   .projects img{
     margin: 35px auto;
     transform: scale(1.5);
+  }
+
+  .certificates:hover{
+    transform: scale(1);
+  }
+
+  .contact:hover{
+    transform: scale(1);
   }
 
   .footer{
